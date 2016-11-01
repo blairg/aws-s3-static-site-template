@@ -1,0 +1,24 @@
+{
+  "author": "Blair Garrett <blair.garrett@sky.uk>",
+  "name": "aws-s3-static-site-template",
+  "private": false,
+  "version": "0.0.1",
+  "description": "Static template for an AWS S3 Website",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-htmlmin": "^1.3.0",
+    "gulp-imagemin": "^3.1.0",
+    "gulp-inject": "^4.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.1",
+    "jshint": "^2.9.1",
+    "rmdir": "^1.2.0",
+    "run-sequence": "^1.1.5"
+  },
+  "scripts": {
+    "start": "gulp",
+    "jshint": "jshint gulpfile.js"
+  }
+}
